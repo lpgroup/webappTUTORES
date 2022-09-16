@@ -29,8 +29,8 @@ st.header("PAINEL DE ACOMPANHAMENTO PARA OS TUTORES CCT")
 st.subheader("------ **Desenvolvido por: Massaki de O. Igarashi** -----")
 
 menu = ["Análise de Dados",
-        # "Texto_Colunas",
-        # "Texto_Markdown",
+        "Texto_Colunas",
+        "Texto_Markdown",
         # "Inserir_Figura"
         ]
 choice = st.sidebar.selectbox("Menu de Opções",menu)
