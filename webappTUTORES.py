@@ -48,7 +48,7 @@ if choice == "Análise de Dados":
     with a1:
         st.subheader("DÚVIDAS = ")
     with a2:
-        #st.info(saldo)  
+        st.info("TEXTO")  
 elif choice == "Texto_Colunas":       
     st.subheader("Texto formatado em colunas")
     st.write("Veja a seguir uma opção de formatação em colunas")    
