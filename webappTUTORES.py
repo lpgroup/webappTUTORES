@@ -31,7 +31,7 @@ st.subheader("------ **Desenvolvido por: Massaki de O. Igarashi** -----")
 menu = ["Análise de Dados",
         "Texto_Colunas",
         "Texto_Markdown",
-        # "Inserir_Figura"
+        "Inserir_Figura"
         ]
 choice = st.sidebar.selectbox("Menu de Opções",menu)
 st.sidebar.write("Texto Side Bar")
