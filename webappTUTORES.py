@@ -28,8 +28,7 @@ st.header("PAINEL DE ACOMPANHAMENTO PARA OS TUTORES CCT")
 #st.write("Como já deve ter percebido, o método st.write() é usado para escrita de texto e informações gerais!")
 st.subheader("------ **Desenvolvido por: Massaki de O. Igarashi** -----")
 
-menu = ["Saldo_ESTOQUE",
-        "Análise de Dados",
+menu = ["Análise de Dados",
         # "Texto_Colunas",
         # "Texto_Markdown",
         # "Inserir_Figura"
@@ -37,17 +36,17 @@ menu = ["Saldo_ESTOQUE",
 choice = st.sidebar.selectbox("Menu de Opções",menu)
 st.sidebar.write("Texto Side Bar")
 
-if choice == "Saldo_ESTOQUE": 
-    st.header("Saldo em ESTOQUE")
-    st.subheader("Fonte: Google Forms em https://forms.gle/ofUVkwswMGGUBJms5")
+if choice == "Análise de Dados": 
+    st.header("RESUMO DAS DÚVIDAS")
+    st.subheader("Fonte: Google Forms em https://docs.google.com/forms/d/1QsL0cTQoZIxLl0J_KO-8dsbWBA-DSGGLxPbgJr9ckmg/edit")
     st.markdown(
     """
-    Analise de Dados de Estoque
+    Analise de Dados de dúvidas
     """)
 
     a1, a2 = st.columns((1,1))
     with a1:
-        st.subheader("Saldo atual em estoque = ")
+        st.subheader("DÚVIDAS = ")
     with a2:
         st.info(saldo)  
 elif choice == "Texto_Colunas":       
